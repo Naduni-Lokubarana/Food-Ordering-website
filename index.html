@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foodio</title>
+
+    
+</head>
+<body>
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>Food<b>io</b></h1></div>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="#about us">About Us</a></li>
+                <ul class="menu-dropdown"> 
+                    <li>
+                      <div class="dropdown">
+                        <a href="#dropdown2">Menu &#9662;</a>
+                        <div class="dropdown-content">
+                          <a href="#breakfast">Breakfast</a>
+                          <a href="#lunch">Lunch</a>
+                          <a href="#dinner">Dinner</a>
+                          <a href="#Pastry items">Pestry Items</a>
+                          <a href="#desserts">Desserts</a>
+                          <a href="#drinks">Drinks</a>
+                          <a href="#pizza">Pizza</a>
+                        </div>
+                    </li>    
+                  
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+            <div>
+                <input class="signin" type="submit" value="Sign In" name="signin ">
+                <input class="signup" type="submit" value="Sign Up" name="signup">
+            </div>
+            <div>
+                <img src="shopping-cart.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>Order Your Best <br>Food anytime</h2>
+                    <p>Hey, Our delicious food is waiting for you,
+                        We are always near to you with fresh item of food 
+                    </p><br><br><br><br>
+                </div>
+                <button>Explorer Food</button>
+            </div>
+            <div class="content-right">
+                <img src="dp.png" alt="Resturant">  
+            </div>
+        </div>
+    </section>
+
+    <section id="about us" class="about us-content">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>Welcome to The Gourmet Table, where we serve a delightful fusion of flavors in a warm and inviting atmosphere. At our restaurant, we are passionate about creating unforgettable dining experiences for every guest.</p>  
+<p>Our menu is designed to cater to every craving, featuring a wide variety of options including breakfast, lunch, dinner, freshly baked pastry items, refreshing drinks, and mouthwatering pizzas. Each dish is prepared with fresh, locally sourced ingredients and crafted with care by our talented chefs.</p>  
+<p>Whether you're starting your day with a hearty breakfast, enjoying a casual lunch, indulging in a decadent dessert, or sharing a pizza with friends, we have something for everyone.</p>
+
+          <a href="#menu" class="btn"><b>Explore Our Menu</b></a>
+        </div>
+        <div class="about-image">
+          <img src="Restaurant-Interior.jpg" alt="About Image">
+        </div>
+      </section>
+
+    <section id="menu" class="menu-section">
+        <h1>Tasty Dishes</h1><br><br>
+        <div class="menu-categories">
+            <a href="#breakfast">Breakfast</a>
+            <a href="#lunch">Lunch</a>
+            <a href="#dinner">Dinner</a>
+            <a href="#pastery items">Pastery items</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#drinks">drinks</a>
+            <a href="#pizza">Pizza</a>
+        </div><br>
+        <section id="breakfast" class="menu-section">
+            <h1 class="menu-title"> Breakfast</h1>
+            <div class="dishes-grid">
+                <!--Dish 1-->
+                <div class="dish">
+                    <img src="rice-curry.webp" alt="Rice">
+                    <h3>Rice</h3>
+                    <p>RS 250.00</p>
+                    <p>Healthy and simple Breakfast</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Dish 2 -->
+                <div class="dish">
+                    <img src="Hoppers.jpg" alt="Hoppers">
+                    <h3>Hoppers</h3>
+                    <p>RS 30.00</p>
+                    <p>Light, crispy hoppers served with coconut sambol and lunu miris.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Dish 3 -->
+                <div class="dish">
+                    <img src="string-hoppers.jpg" alt="String Hoppers">
+                    <h3>String Hoppers</h3>
+                    <p>Rs 200.00</p>
+                    <p>Delicate rice flour noodles served with coconut milk curry and sambols.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Dish 4 -->
+                <div class="dish">
+                    <img src="Kiribath.jpg" alt="Kiribath">
+                    <h3>Milk Rice</h3>
+                    <p>150.00</p>
+                    <p>Sticky coconut rice served with spicy lunu miris or seeni sambol.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Dish 5-->
+                <div class="dish">
+                    <img src="roti.jpg" alt="Pol Roti">
+                    <h3>Pol Roti</h3>
+                    <p>Rs 50.00</p>
+                    <p>Flatbread made with coconut, served with chutney or dhal curry.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                
+            </div><br>
+        </section>
+
+        <section id="lunch" class="menu-section">
+            <h2 class="menu-title"> Lunch</h2>
+            <div class="dishes-grid">
+                <div class="dish">
+                    <img src="rice-curry.webp" alt="Normal Rice">
+                    <h3>Normal Rice</h3>
+                    <p>Rs 250.00</p>
+                    <p>Steamed white rice served with dhal curry, papadum, and sambol.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="rice-fish.avif" alt="Fish Rice">
+                    <h3>Fish Rice</h3>
+                    <p>Rs 350.00</p>
+                    <p>Steamed rice served with spicy fish curry, dhal curry, and sambol.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="chicken rice.jpg" alt="Chicken Rice">
+                    <h3>Chicken Rice</h3>
+                    <p>Rs 400.00</p>
+                    <p>Steamed rice served with flavorful chicken curry, dhal, and sambol.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button> 
+                    
+                </div>
+                <div class="dish">
+                    <img src="Fried rice.jpg" alt="Fried Rice">
+                    <h3>Fried Rice</h3>
+                    <p>Rs 600.00</p>
+                    <p>Sri Lankan-style fried rice with vegetables, egg, and your choice of meat.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div><br>
+        </section>
+        <section id="dinner" class="menu-section">
+            <h2 class="menu-title"> Dinner</h2>
+            <div class="dishes-grid">
+                <div class="dish">
+                    <img src="Fried rice.jpg" alt="Fried Rice">
+                    <h3>Fried Rice</h3>
+                    <p>Rs 600.00</p>
+                    <p>Sri Lankan-style fried rice with vegetables, egg, and your choice of meat.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    
+                </div>
+                <div class="dish">
+                    <img src="kottu .JPG" alt="Kottu">
+                    <h3>Kottu</h3>
+                    <p>Rs 700.00</p>
+                    <p>Chopped flatbread stir-fried with vegetables, eggs, and your choice of meat.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="-pasta.webp" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Rs 500.00</p>
+                    <p>Italian-style pasta with a Sri Lankan twist of spicy curry sauce.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Noodles.jpg" alt="Noodles">
+                    <h3>Noodles</h3>
+                    <p>Rs 500.00</p>
+                    <p>Stir-fried noodles with vegetables, eggs, and your choice of meat.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div><br>
+        </section>
+        <section id="pastery items" class="menu-section">
+            <h2 class="menu-title">Pastry Items</h2>
+            <div class="dishes-grid">
+                <!-- Pastry Items -->
+                <div class="dish">
+                    <img src="Pastrey.jpg" alt="Pastry">
+                    <h3>Pastry</h3>
+                    <p>Rs 150.00</p>
+                    <p>Flaky, buttery pastry filled with sweet cream and fruit preserves.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Cake.jpg" alt="Cake">
+                    <h3>Cake</h3>
+                    <p>Rs 1000.00</p>
+                    <p>Moist, layered cake topped with rich frosting and fresh fruits.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Tart.jpg" alt="Tart">
+                    <h3>Tart</h3>
+                    <p>Rs 200.00</p>
+                    <p>Crisp pastry shell filled with creamy custard and seasonal fruits.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Donuts.jpg" alt="Doughnut">
+                    <h3>Doughnut</h3>
+                    <p>Rs 120.00</p>
+                    <p>Soft and sweet doughnut topped with chocolate glaze and sprinkles.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Rs 400.00</p>
+                    <p>Crispy Buger , salada leave , onion with bun .</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div><br>
+            </div>
+        </section>
+        <section id="desserts" class="menu-section">
+            <h2 class="menu-title"> Desserts</h2>
+            <div class="dishes-grid">
+                <div class="dish">
+                    <img src="watalappan.png" alt="Watalappan">
+                    <h3>Watalappan</h3>
+                    <p>Rs 450.00</p>
+                    <p>A rich and creamy Sri Lankan dessert made with coconut milk, jaggery, and spices..</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="rcn5zhfn.png" alt="Custard Pudding">
+                    <h3>Custard Pudding</h3>
+                    <p>Rs 350.00</p>
+                    <p>Velvety smooth custard pudding topped with caramelized sugar.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="ice cream.jpg" alt="Ice Cream">
+                    <h3>Ice Cream</h3>
+                    <p>Rs 250.00</p>
+                    <p>Refreshing ice cream with a choice of vanilla, chocolate, or strawberry flavors.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="Fruitsalad.jpg" alt="Fruit Salad">
+                    <h3>Fruit Salad</h3>
+                    <p>Rs 300.00</p>
+                    <p>Fresh mixed fruits served with a sweet honey drizzle.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="pancake.png" alt="Sweet Pancakes">
+                    <h3>Sweet Pancakes</h3>
+                    <p>Rs 400.00</p>
+                    <p>Soft pancakes served with syrup and a sprinkle of powdered sugar.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="drinks" class="menu-section">
+            <h2 class="menu-title"> Drinks</h2>
+            <div class="dishes-grid">
+                <div class="dish">
+                    <img src="Fresh Juice.jpg" alt="Fresh Juice">
+                    <h3>Fresh Juice</h3>
+                    <p>Rs 200.00</p>
+                    <p>Refreshing fruit juices made with seasonal fruits like mango, pineapple, or papaya.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="icedcoffee.png" alt="Iced Coffee">
+                    <h3>Iced Coffee</h3>
+                    <p>Rs 250.00</p>
+                    <p>A refreshing cold coffee beverage, perfect for a hot day. Served with ice and milk or cream.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="softdrinks.png" alt="Soft Drink">
+                    <h3>Soft Drinks</h3>
+                    <p>Rs 100.00</p>
+                    <p>Classic carbonated soft drinks available in various flavors like cola, lemon, and orange.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="milk.png" alt="Tea">
+                    <h3>Tea</h3>
+                    <p>Rs 300.00</p>
+                    <p>Traditional Sri Lankan tea, served hot with milk or black.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="mojito.png" alt="Mojito">
+                    <h3>Mojito</h3>
+                    <p>Rs 350.00</p>
+                    <p>A classic cocktail made with fresh mint, lime and a splash of soda water, served over ice.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="pizza" class="menu-section">
+            <h2 class="menu-title">Delicious Pizzas</h2>
+            <div class="dishes-grid">
+                <div class="dish">
+                    <img src="Margherita-Pizza.jpg" alt="Margherita Pizza">
+                    <h3>Margherita Pizza</h3>
+                    <p>Rs 800.00</p>
+                    <p>A  pizza with a crispy crust, tomato sauce,  mozzarella, and basil leaves.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="peporani pizza.png" alt="Pepperoni Pizza">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Rs 950.00</p>
+                    <p>Loaded with slices of spicy pepperoni, gooey mozzarella cheese, and tomato sauce.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="vegi pizza.png" alt="Veggie Pizza">
+                    <h3>Veggie Pizza</h3>
+                    <p>Rs 900.00</p>
+                    <p>Topped with a colorful assortment of fresh vegetables, mozzarella, and tomato sauce.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="chicken pizza.png" alt="Chicken  Pizza">
+                    <h3>Chicken  Pizza</h3>
+                    <p>Rs 1000.00</p>
+                    <p>Spiced chicken  pieces on a cheesy base with onions and peppers.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="dish">
+                    <img src="hawaiian pizza.png" alt="Hawaiian Pizza">
+                    <h3>Hawaiian Pizza</h3>
+                    <p>Rs 1200.00</p>
+                    <p>A sweet and savory mix of pineapple, ham, mozzarella cheese, and tomato sauce.</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container">
+            <h1>Book a Table</h1>
+            <form id="bookingForm">
+              <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div><br>
+              <div class="form-row">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+              </div><br>
+              <div class="form-row">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+              </div><br>
+              <div class="form-row">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+              </div><br>
+              <div class="form-row">
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+              </div><br>
+              <button type="submit">Book Now</button>
+            </form>
+            <div id="confirmationMessage"></div>
+          </div><br><br>
+        
+          <script src="script.js"></script>
+        
+    
+        <footer>
+            <p>&copy; 2024 Happy Food. All rights reserved.</p>
+        </footer>
+
+
+        
+
+        
+
+       
+    
+    </section>
+</body>
+</html>
+
+        
+        
+        
+    
